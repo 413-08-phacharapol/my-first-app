@@ -100,7 +100,7 @@ ans2 = st.text_input(
   value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-  "ข้อ 3: We use a `P _ _ c _ l`. 🖊️",
+  "ข้อ 3: We use a `P _ _ c _ l`. 🖊️ write in a book",
   value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
