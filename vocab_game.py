@@ -114,8 +114,6 @@ st.session_state.ans2_val = ans2
 st.session_state.ans1_val = ans3
 st.session_state.ans1_val = ans4
 
-# ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
-
 
 # 4. ปุ่มส่งคำตอบ
 if "start" in st.session_state and not st.session_state.get("is_ended", False):
