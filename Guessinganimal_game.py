@@ -158,43 +158,43 @@ st.divider()
 
 # 3. ช่องรับคำตอบ (ใช้ value ผูกกับตัวแปรตรงๆ เพื่อสั่งเคลียร์ได้)
 ans1 = st.text_input(
-  "ข้อ 1: I am big and gray. I have a long trunk. What am I? `e _ e _ h a _ t` . 🐘",
+  "ข้อ 1: I am big and gray I have a long trunk, What am I? `e _ e _ h a _ t` . 🐘",
   value=st.session_state.ans1_val,
 )
 ans2 = st.text_input(
-  "ข้อ 2: I am the king of the jungle. I have a big mane. What am I? `l _ o _`. 🦁",
+  "ข้อ 2: I am the king of the jungle, I have a big mane, What am I? `l _ o _`. 🦁",
   value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-  "ข้อ 3: I am tall and have a very long neck. What am I? `g _ r a _ f _` . 🦒",
+  "ข้อ 3: I am tall and have a very long neck, What am I? `g _ r a _ f _` . 🦒",
   value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-  "ข้อ 4: I am black and white. I look like a horse with stripes. What am I? `z _ b _ a` . 🦓",
+  "ข้อ 4: I am black and white, I look like a horse with stripes, What am I? `z _ b _ a` . 🦓",
   value=st.session_state.ans4_val,
 )
 ans5 = st.text_input(
-  "ข้อ 5: I love eating bananas and can climb trees. What am I? `m _ n k _ y` . 🐒",
+  "ข้อ 5: I love eating bananas and can climb trees, What am I? `m _ n k _ y` . 🐒",
   value=st.session_state.ans5_val,
 )
 ans6 = st.text_input(
-  "ข้อ 6: I can fly and I say quack quack What am I? `d _ c _` . 🦆",
+  "ข้อ 6: I can fly and I say quack quack, What am I? `d _ c _` . 🦆",
   value=st.session_state.ans6_val,
 )
 ans7 = st.text_input(
-  "ข้อ 7: I hop around and I love eating carrots. What am I? `r _ b b _ t ` . 🐇",
+  "ข้อ 7: I hop around and I love eating carrots What am I? `r _ b b _ t ` . 🐇",
   value=st.session_state.ans7_val,
 )
 ans8 = st.text_input(
-  "ข้อ 8: I live in the water and I have sharp teeth. People call me a great swimmer. What am I? `s _ a _ k ` . 🦈",
+  "ข้อ 8: I live in the water and I have sharp teeth, People call me a great swimmer, What am I? `s _ a _ k ` . 🦈",
   value=st.session_state.ans8_val,
 )
 ans9 = st.text_input(
-  "ข้อ 9: I am slow and I carry a heavy shell on my back. What am I? `t _ r t _ e` . 🐢",
+  "ข้อ 9: I am slow and I carry a heavy shell on my back, What am I? `t _ r t _ e` . 🐢",
   value=st.session_state.ans9_val,
 )
 ans10 = st.text_input(
-  "ข้อ 10: I am green and I can jump high. I say "ribbit". What am I? `f _ o _` . 🐸",
+  "ข้อ 10: I am green and I can jump high. I say ribbit What am I? `f _ o _` . 🐸",
   value=st.session_state.ans10_val,
 )
 
