@@ -133,11 +133,11 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
     st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
 
   if score == 10:
-    st.success("🥳 You pass!")
+    st.success("🥳 Good job!")
   elif score >= 5 and score <= 9:  
-    st.info("🥰well done")
+    st.info("😄well done")
   else:
-    st.error("😭You fail")
+    st.error("🥹try agian")
 
 # ----------------------------------------------------
 # 1. ปุ่มเริ่มเล่นเกม
@@ -146,7 +146,7 @@ st.button("🎮 เริ่มเล่นเกม", on_click=reset_game)
 
 # 2. แถบแสดงเวลานับถอยหลัง
 if "start" in st.session_state and not st.session_state.get("is_ended", False):
-  time_left = int(300 - (time.time() - st.session_state.start))
+  time_left = int(270 - (time.time() - st.session_state.start))
 
   if time_left > 0:
     st.error(f"⏳ เหลือเวลา: {time_left} วินาที")
