@@ -178,7 +178,7 @@ ans5 = st.text_input(
   value=st.session_state.ans5_val,
 )
 ans6 = st.text_input(
-  "ข้อ 6: I can fly and I say "quack quack". What am I? `d _ c _` . 🦆",
+  "ข้อ 6: I can fly and I say quack quack What am I? `d _ c _` . 🦆",
   value=st.session_state.ans6_val,
 )
 ans7 = st.text_input(
